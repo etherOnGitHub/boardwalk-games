@@ -99,7 +99,7 @@ h2 {
 .active.carousel-item-start {
   transform: translateX(-100%);
 }
-
+/* queries */
 @media screen and (min-width: 768px) {
   #services .card-body {
     min-height: 191px;
