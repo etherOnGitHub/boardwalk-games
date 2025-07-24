@@ -78,7 +78,13 @@ h2 {
 #services .card {
   margin-bottom: 1.5rem;
 }
-
+#new-games .card {
+  margin-bottom: 1.5rem;
+}
+#favourites .card {
+  margin-bottom: 1.5rem;
+}
+  
 /* Carousel Styles added because it wasnt working */
 .carousel-item {
   transition: transform 0.6s ease-in-out;
@@ -104,6 +110,8 @@ h2 {
   #services .card-body {
     min-height: 191px;
   }
+  
+  
 }
 
 @media screen and (min-width: 992px) {
@@ -116,10 +124,20 @@ h2 {
   #services .card-body {
     min-height: 252px;
   }
+  #favourites .card-body {
+    min-height: 348px;
+  }
+  #new-games .card-body {
+    min-height: 260px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
   #services .card-body {
     min-height: 194px;
   }
+  #favourites .card-body {
+    min-height: 315px;
+  }
 }
+
