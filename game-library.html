@@ -205,6 +205,52 @@
         </div>
       </div>
     </section>
+    <section id="booking-form" class="container section">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+          <h2 class="text-center">Reserve a Game</h2>
+          <form action="success.html" method="get">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input class="form-control" id="name" type="name" required>
+              </div>
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" id="email" type="email" required>
+              </div>
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input class="form-control" id="phone" type="number" required>
+              </div>
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="event-type" class="form-label">Select a Game</label>
+                <select id="event-type" class="form-select" name="event-type" required>
+                  <option value="" selected>Select</option>
+                  <option value="galaxy-pioneers">Galaxy Pioneers</option>
+                  <option value="mystic-woods">Mystic Woods</option>
+                  <option value="captains-gambit">Captain's Gambit</option>
+                  <option value="critter-quest">Critter Quest</option>
+                  <option value="settlers-of-catan">Settlers of Catan</option>
+                  <option value="monopoly">Monopoly</option>
+                  <option value="exploding-kittens">Exploding Kittens</option>
+                  <option value="cleudo">Cluedo</option>
+                </select>
+              </div>
+              <div class="col-12 mb-3">
+                <label for="date" class="form-label">Requested Date</label>
+                <input class="form-control" id="date" type="date" required>
+              </div>
+              <div class="col-12 mb-3">
+                <label for="time" class="form-label">Requested Date</label>
+                <input class="form-control" id="time" type="time" required>
+              </div>
+            </div>
+            <button type="submit" class="btn custom-button-outlined">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
   <footer id="contact" class="mt-auto">
     <div class="container">
